@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="robot_setup_sensor" type="laser_scan_publisher" name="laser_node" output="screen">
+  </node>
+
+  <node pkg="robot_setup_odometry" type="odometryData" name="odom_node" output="screen">
+  </node>
+
+  <node pkg="robot_setup_tf" type="tf_broadcaster" name="tf_node" output="screen">
+  </node>
+</launch>
+

@@ -1,0 +1,6 @@
+digraph G {
+"base_link" -> "laser"[label="Broadcaster: /tf_node\nAverage rate: 136.596 Hz\nMost recent transform: 1398068156.613 \nBuffer length: 5.432 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /RosAria\nAverage rate: 11.017 Hz\nMost recent transform: 1398068156.057 \nBuffer length: 4.811 sec\n"];
+"base_link" -> "seekur_top_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.200 Hz\nMost recent transform: 1398068156.613 \nBuffer length: 4.920 sec\n"];
+"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 49.932 Hz\nMost recent transform: 1398068155.128 \nBuffer length: 4.146 sec\n"];
+}
