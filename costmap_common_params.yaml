@@ -9,7 +9,7 @@ footprint: [[0.6, -0.425], [0.6, 0.425],[-0.6, 0.425],[-0.6,-0.425]]
 
 #robot_radius: ir_of_robot
 
-inflation_radius: 0.8#0.55 #0.10
+inflation_radius: 1.5#1.2#0.8#0.55 #0.10
 
 transform_tolerance: 0.2#0.2 changed 2:56 PM 11/8
 

@@ -1,10 +1,11 @@
+<?xml version="1.0"?>
 <launch>
   <master auto="start"/>
 
   <!-- Run the map server -->
   <!-- node name="map_server" pkg="map_server" type="map_server" args="$(find seekur_2dnav)/w.pgm 0.050" / -->
   <!-- node name="map_server" pkg="map_server" type="map_server" args="$(find seekur_2dnav)/hokuyo_map.pgm 0.050" / -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find seekur_2dnav)/empty_map.pgm 0.050" />
+<!--  <node name="map_server" pkg="map_server" type="map_server" args="$(find seekur_2dnav)/empty_map.pgm 0.050" /> -->
   
   <!-- RosAria cmd_vel to cmd_vel -->
   <node pkg="rosaria" type="RosAria" name="RosAria" output="screen">
